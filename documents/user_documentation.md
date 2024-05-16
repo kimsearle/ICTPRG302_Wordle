@@ -8,7 +8,7 @@ Run the script using Python 3.1x.
 
 using bash, copy code:
 ```bash
-./guess_my_word.py
+./wordle.py
 ```
 #### Objective: 
 Guess the hidden word within 6 attempts.
