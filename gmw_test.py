@@ -1,9 +1,9 @@
 import random
 import datetime
 
-with open('docs/target_words.txt', 'r') as target_all:
+with open('documents/target_words.txt', 'r') as target_all:
     target_list = target_all.read().splitlines()
-with open('docs/all_words.txt', 'r') as valid_all:
+with open('documents/all_words.txt', 'r') as valid_all:
     all_words_list = valid_all.read().splitlines()
 
 GUESS_COUNT = 6
