@@ -21,15 +21,21 @@ Enter a valid 5-letter word as your guess.
 Type a 5-letter word and press “enter” to see if any letters in it are also in word. Green tiles (🟩) mean you’ve
 guessed the correct letter in the correct place in the word. A yellow tile (🟨) means you guessed a letter that’s
 in the word but isn’t in the right spot. A white tile (⬜) means the letter is not in the word.
+Enter "E" or "exit" to exit the game
+Enter "H" or "help" to see the instructions again
 """
     print(welcome, aim, instructions)
 
 
 def help_info():
     help = """
+Enter a valid 5-letter word as your guess.
+Your guess will receive the following feedback:
 MISS (⬜): The letter is not in the word  
 MISPLACED (🟨): The letter is in the word but in the wrong position.  
 EXACT (🟩): The letter is in the correct position.
+
+Enter "E" or "exit" to exit the game
     """
     print(help)
 
@@ -51,21 +57,23 @@ def guess_prompt():
             else:
                 return
         else:
-            print("Sorry")
+            print("Sorry, please enter a valid guess.")
 
 
 def score_guess(char_guess):
-    score = []
+    score = [0] * WORD_LENGTH
     used_char = set()
     for i, char in enumerate(char_guess):
         if char == char_target[i]:
-            score.append(2)
+            score[i] = 2
             used_char.add(i)
-        elif char in char_target and char_target.index(char) not in used_char:
-            score.append(1)
-            used_char.add(char_target.index(char))
-        else:
-            score.append(0)
+    for i, char in enumerate(char_guess):
+        if score[i] == 0:
+            for j, target_char in enumerate(char_target):
+                if target_char == char and j not in used_char:
+                    score[i] = 1
+                    used_char.add(j)
+                    break
     print(" ".join(format_score(score)))
     if all(val == 2 for val in score):
         print("Congratulations!")
@@ -85,6 +93,7 @@ def format_score(score):
         if value in round_score:
             results.append(score_tiles[value])
     return results
+
 
 print(target_word)
 game_instructions()
