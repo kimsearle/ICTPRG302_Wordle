@@ -11,13 +11,13 @@ using bash, copy code:
 ./wordle.py
 ```
 #### Objective: 
-Guess the hidden word within 6 attempts.
+Guess the target word within 6 attempts.
 
 #### Input: 
 Enter a 5-letter word as your guess.
 
 #### Feedback:
-The letter is not in the word.
+
 
 MISS (⬜): The letter is not in the word  
 MISPLACED (🟨): The letter is in the word but in the wrong position.  

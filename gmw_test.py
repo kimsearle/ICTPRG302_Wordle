@@ -12,13 +12,38 @@ WORD_LENGTH = 5
 target_word = random.choice(target_list)
 char_target = list(target_word.lower())
 
-print(target_word)
+
+def game_instructions():
+    welcome = "Welcome to the Wordle Game!"
+    aim = "Guess the target word within 6 attempts."
+    instructions = """ 
+Enter a valid 5-letter word as your guess.
+Type a 5-letter word and press “enter” to see if any letters in it are also in word. Green tiles (🟩) mean you’ve
+guessed the correct letter in the correct place in the word. A yellow tile (🟨) means you guessed a letter that’s
+in the word but isn’t in the right spot. A white tile (⬜) means the letter is not in the word.
+"""
+    print(welcome, aim, instructions)
+
+
+def help_info():
+    help = """
+MISS (⬜): The letter is not in the word  
+MISPLACED (🟨): The letter is in the word but in the wrong position.  
+EXACT (🟩): The letter is in the correct position.
+    """
+    print(help)
 
 
 def guess_prompt():
     guesses_left = GUESS_COUNT
     while guesses_left > 0:
         guess_word = input("Enter a guess: ").lower()
+        if guess_word in ("exit", "e"):
+            print("thanks for playing!")
+            return
+        if guess_word in ("h", "help"):
+            help_info()
+            continue
         if guess_word in all_words_list and len(guess_word) == WORD_LENGTH:
             char_guess = list(guess_word.lower())
             if score_guess(char_guess):
@@ -61,5 +86,7 @@ def format_score(score):
             results.append(score_tiles[value])
     return results
 
-
+print(target_word)
+game_instructions()
 guess_prompt()
+
