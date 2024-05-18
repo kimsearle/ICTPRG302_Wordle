@@ -15,7 +15,6 @@ char_target = list(target_word.lower())
 print(target_word)
 
 
-
 def guess_prompt():
     guesses_left = GUESS_COUNT
     while guesses_left > 0:
@@ -42,20 +41,25 @@ def score_guess(char_guess):
             used_char.add(char_target.index(char))
         else:
             score.append(0)
-    print(score)
+    print(" ".join(format_score(score)))
     if all(val == 2 for val in score):
         print("Congratulations!")
         return False
     return True
 
 
+def format_score(score):
+    score_tiles = {
+        0: "⬜",
+        1: "🟨",
+        2: "🟩"
+    }
+    round_score = tuple(score)
+    results = []
+    for value in round_score:
+        if value in round_score:
+            results.append(score_tiles[value])
+    return results
+
+
 guess_prompt()
-
-
-
-
-
-
-
-
-
