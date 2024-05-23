@@ -1,20 +1,44 @@
 # Guess-My-Word Game
 Guess-My-Word is a fun and challenging game where you have to guess a hidden word within a limited number of attempts. Each guess provides feedback to help you guess the correct word.
 
+## How to Download Game:
+
+####Download the Game from GitHub:
+
+Visit: [https://github.com/kimsearle/ICTPRG302_guess-my-word] 
+Click on the green "Code" button and select "Download ZIP".
+Extract the downloaded ZIP file to your desired location on your computer.  
+
+Alternatively, if you have Git installed, you can clone the repository:
+```bash
+git clone https://github.com/your-username/your-repository.git
+```  
+Open your terminal and navigate to the directory where you extracted or cloned the repository: 
+```bash
+cd path/to/your-repository
+```  
+ #### Run the Game
+Make sure you have Python installed on your system. If not, download and install it from python.org.
+
+In the terminal, run the game script:
+```bash
+python gmw.py
+```
+
 ## How to Play
 
 #### Starting the Game: 
-Run the script using Python 3.1x.
 
-using bash, copy code:
-```bash 
-./wordle.py
-```
 #### Objective: 
 Guess the target word within 6 attempts.
 
 #### Input: 
 Enter a 5-letter word as your guess.
+
+#### Special Commands:
+
+Enter "E" or "exit" to quit the game.
+Enter "H" or "help" to view the instructions again.  
 
 #### Feedback:
 
@@ -26,9 +50,6 @@ EXACT (🟩): The letter is in the correct position.
 #### Winning: 
 Guess the word correctly to win the game.
 
-#### Exiting: 
-The game ends automatically when the word is guessed correctly or when you run out of attempts.  
-You can also quit the game at any time by typing ```exit``` during the game 
 
 ### Example Gameplay
 
