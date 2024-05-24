@@ -49,6 +49,7 @@ Enter "E" or "exit" to exit the game
 
 
 def guess_prompt():
+    username = input("Enter name: ").lower()
     guesses_left = GUESS_COUNT
     global total_guess_count
     while guesses_left > 0:
@@ -62,7 +63,7 @@ def guess_prompt():
         if guess_word in all_words_list and len(guess_word) == WORD_LENGTH:
             char_guess = list(guess_word.lower())
             total_guess_count += 1
-            if score_guess(char_guess):
+            if score_guess(char_guess, username):
                 guesses_left -= 1
             else:
                 return
@@ -70,10 +71,10 @@ def guess_prompt():
             print("Sorry, please enter a valid guess.")
     print("You lost")
     print(f'The target word was: {target_word}')
-    record_score_loss()
+    record_score_loss(username)
 
 
-def score_guess(char_guess):
+def score_guess(char_guess, username):
     score = [0] * WORD_LENGTH
     used_char = set()
     for i, char in enumerate(char_guess):
@@ -90,7 +91,7 @@ def score_guess(char_guess):
     print(" ".join(format_score(score)))
     if all(val == 2 for val in score):
         print("Congratulations!")
-        record_score_win()
+        record_score_win(username)
         return False
     return True
 
@@ -109,20 +110,43 @@ def format_score(score):
     return results
 
 
-def record_score_win():
+def record_score_win(username):
     global total_guess_count
-    username = input("Enter name: ")
-    scores_file = open("scores.md", "a")
+    scores_file = open("scores.txt", "a")
     scores_file.write(f'{username} guessed the word in {total_guess_count} on {datetime.date.today()}.\n')
 
 
-def record_score_loss():
+def record_score_loss(username):
     global total_guess_count
-    username = input("Enter name: ")
-    scores_file = open("scores.md", "a")
+    scores_file = open("scores.txt", "a")
     scores_file.write(f'{username} lost and did not the word on {datetime.date.today()}.\n')
 
 
-# print(target_word)
+def calculate_score_average():
+    with open('scores.txt', 'r') as file:
+        lines = file.readlines()
+    user_scores = {}
+    for line in lines:
+        parts = line.split()
+        user_name = parts[0]
+        if "guessed" in parts:
+            score_index = parts.index("in") + 1
+            score = int(parts[score_index])
+            if user_name in user_scores:
+                user_scores[user_name].append(score)
+            else:
+                user_scores[user_name] = [score]
+        elif "lost" in parts:
+            continue
+
+    with open('average_score_report.txt', 'w') as report_file:
+        for user, scores in user_scores.items():
+            average_score = sum(scores) / len(scores) if scores else 0
+            report_file.write(f"{user} has an average score of {average_score:.2f}\n")
+
+
+print(target_word)
 game_instructions()
 guess_prompt()
+calculate_score_average()
+
