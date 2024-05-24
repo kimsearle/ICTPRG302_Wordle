@@ -1,0 +1,82 @@
+Username: kim
+Target Word: serif
+Guesses:
+shelf, Score: 🟩 ⬜ 🟨 ⬜ 🟩
+Guess: shelf, correct in 1 guesses
+Date: 24/05/2024
+
+Username: kim
+Target Word: lapse
+Guesses:
+plant, Score: 🟨 🟨 🟨 ⬜ ⬜
+lamps, Score: 🟩 🟩 ⬜ 🟨 🟨
+lapse, Score: None
+Correct in 3 guesses
+Date: 24/05/2024
+
+Username: kim
+Target Word: wispy
+Guesses:
+plant, Score: 🟨 ⬜ ⬜ ⬜ ⬜
+irate, Score: 🟨 ⬜ ⬜ ⬜ ⬜
+wispy, Score: None
+Correct in 3 guesses
+Date: 24/05/2024
+
+Username: kim
+Target Word: manga
+Guesses:
+treat, Score: ⬜ ⬜ ⬜ 🟨 ⬜
+Game lost
+Date: 24/05/2024
+
+Username: kim
+Target Word: minor
+Guesses:
+plant, Score: ⬜ ⬜ ⬜ 🟨 ⬜
+irate, Score: 🟨 🟨 ⬜ ⬜ ⬜
+clasp, Score: ⬜ ⬜ ⬜ ⬜ ⬜
+minor, Score: None
+Correct in 4 guesses
+Date: 24/05/2024
+
+Username: kim
+Target Word: hater
+Guesses:
+treat, Score: 🟨 🟨 🟨 🟨 ⬜
+treat, Score: 🟨 🟨 🟨 🟨 ⬜
+treat, Score: 🟨 🟨 🟨 🟨 ⬜
+treat, Score: 🟨 🟨 🟨 🟨 ⬜
+treat, Score: 🟨 🟨 🟨 🟨 ⬜
+treat, Score: 🟨 🟨 🟨 🟨 ⬜
+Game lost
+Date: 24/05/2024
+
+Username: kim
+Target Word: canoe
+Guesses:
+boats, Score: ⬜ 🟨 🟨 ⬜ ⬜
+canoe, Score: None
+Correct in 2 guesses
+Date: 24/05/2024
+
+Username: kim
+Target Word: plunk
+Guesses:
+pukes, Score: 🟩 🟨 🟨 ⬜ ⬜
+plunk, Score: None
+Correct in 2 guesses
+Date: 24/05/2024
+
+Username: shadow
+Target Word: glory
+Guesses:
+treat, Score: ⬜ 🟨 ⬜ ⬜ ⬜
+snack, Score: ⬜ ⬜ ⬜ ⬜ ⬜
+bones, Score: ⬜ 🟨 ⬜ ⬜ ⬜
+treat, Score: ⬜ 🟨 ⬜ ⬜ ⬜
+treat, Score: ⬜ 🟨 ⬜ ⬜ ⬜
+treat, Score: ⬜ 🟨 ⬜ ⬜ ⬜
+Game lost
+Date: 24/05/2024
+
