@@ -80,11 +80,13 @@ def guess_prompt():
             print("Sorry, please enter a valid guess.")
 
     if not won:
+        print("Sorry, you lost 😭")
         print(f'The target word was: {target_word}')
 
     append_guess_log(username, target_word, guess_log, won)
     if won:
         record_score_win(username)
+        print("Congratulations! 🎉🎉🎉🎉")
     else:
         record_score_loss(username)
 
@@ -162,7 +164,8 @@ def calculate_score_average():
             win_percentage = (user_stats[user]["wins"] / user_stats[user]["total"]) * 100
             total_plays = user_stats[user]["total"]
             report_file.write(
-                f"{user} has an average score of {average_score:.2f}, a win percentage of {win_percentage:.2f}%, and a total of {total_plays} plays.\n")
+                f"{user} has an average score of {average_score:.2f}, a win percentage of {win_percentage:.2f}"
+                f"%, and a total of {total_plays} plays.\n")
 
 
 def append_guess_log(username, target_word, guess_log, won):

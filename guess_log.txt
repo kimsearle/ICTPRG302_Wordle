@@ -217,3 +217,48 @@ fraud, Score: 🟩 🟩 🟩 🟩 🟩
 Correct in 2 guesses
 Date: 25/05/2024
 
+Username: kim
+Target Word: scree
+Guesses:
+irate, Score: ⬜ 🟨 ⬜ ⬜ 🟩
+spore, Score: 🟩 ⬜ ⬜ 🟨 🟩
+serve, Score: 🟩 🟨 🟩 ⬜ 🟩
+soree, Score: 🟩 ⬜ 🟩 🟩 🟩
+scree, Score: 🟩 🟩 🟩 🟩 🟩
+Correct in 5 guesses
+Date: 25/05/2024
+
+Username: kim
+Target Word: batch
+Guesses:
+irate, Score: ⬜ ⬜ 🟨 🟨 ⬜
+north, Score: ⬜ ⬜ ⬜ 🟨 🟩
+latch, Score: ⬜ 🟩 🟩 🟩 🟩
+hatch, Score: ⬜ 🟩 🟩 🟩 🟩
+patch, Score: ⬜ 🟩 🟩 🟩 🟩
+match, Score: ⬜ 🟩 🟩 🟩 🟩
+Game lost
+Date: 25/05/2024
+
+Username: kim
+Target Word: spend
+Guesses:
+irate, Score: ⬜ ⬜ ⬜ ⬜ 🟨
+speed, Score: 🟩 🟩 🟩 ⬜ 🟩
+speld, Score: 🟩 🟩 🟩 ⬜ 🟩
+spend, Score: 🟩 🟩 🟩 🟩 🟩
+Correct in 4 guesses
+Date: 25/05/2024
+
+Username: kim
+Target Word: squib
+Guesses:
+irate, Score: 🟨 ⬜ ⬜ ⬜ ⬜
+snipy, Score: 🟩 ⬜ 🟨 ⬜ ⬜
+sonic, Score: 🟩 ⬜ ⬜ 🟩 ⬜
+spoil, Score: 🟩 ⬜ ⬜ 🟩 ⬜
+squid, Score: 🟩 🟩 🟩 🟩 ⬜
+squib, Score: 🟩 🟩 🟩 🟩 🟩
+Correct in 6 guesses
+Date: 25/05/2024
+
