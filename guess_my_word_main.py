@@ -1,3 +1,10 @@
+"""Guess-My-Word is a game where the player has to guess a word. A terminal version of wordle
+Author: Kim
+Company: NM TAFE
+Copyright: 2024
+
+"""
+
 import random
 import datetime
 
