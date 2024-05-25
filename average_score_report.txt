@@ -1,0 +1,4 @@
+kim has an average score of 2.59, a win percentage of 90.62%, and a total of 32 plays.
+jordan has an average score of 2.00, a win percentage of 100.00%, and a total of 1 plays.
+shadow has an average score of 3.50, a win percentage of 66.67%, and a total of 3 plays.
+poop has an average score of 5.00, a win percentage of 60.00%, and a total of 5 plays.

@@ -1,0 +1,219 @@
+Username: kim
+Target Word: serif
+Guesses:
+shelf, Score: 🟩 ⬜ 🟨 ⬜ 🟩
+Guess: shelf, correct in 1 guesses
+Date: 24/05/2024
+
+Username: kim
+Target Word: lapse
+Guesses:
+plant, Score: 🟨 🟨 🟨 ⬜ ⬜
+lamps, Score: 🟩 🟩 ⬜ 🟨 🟨
+lapse, Score: None
+Correct in 3 guesses
+Date: 24/05/2024
+
+Username: kim
+Target Word: wispy
+Guesses:
+plant, Score: 🟨 ⬜ ⬜ ⬜ ⬜
+irate, Score: 🟨 ⬜ ⬜ ⬜ ⬜
+wispy, Score: None
+Correct in 3 guesses
+Date: 24/05/2024
+
+Username: kim
+Target Word: manga
+Guesses:
+treat, Score: ⬜ ⬜ ⬜ 🟨 ⬜
+Game lost
+Date: 24/05/2024
+
+Username: kim
+Target Word: minor
+Guesses:
+plant, Score: ⬜ ⬜ ⬜ 🟨 ⬜
+irate, Score: 🟨 🟨 ⬜ ⬜ ⬜
+clasp, Score: ⬜ ⬜ ⬜ ⬜ ⬜
+minor, Score: None
+Correct in 4 guesses
+Date: 24/05/2024
+
+Username: shadow
+Target Word: hater
+Guesses:
+treat, Score: 🟨 🟨 🟨 🟨 ⬜
+treat, Score: 🟨 🟨 🟨 🟨 ⬜
+treat, Score: 🟨 🟨 🟨 🟨 ⬜
+treat, Score: 🟨 🟨 🟨 🟨 ⬜
+treat, Score: 🟨 🟨 🟨 🟨 ⬜
+treat, Score: 🟨 🟨 🟨 🟨 ⬜
+Game lost
+Date: 24/05/2024
+
+Username: kim
+Target Word: canoe
+Guesses:
+boats, Score: ⬜ 🟨 🟨 ⬜ ⬜
+canoe, Score: None
+Correct in 2 guesses
+Date: 24/05/2024
+
+Username: kim
+Target Word: plunk
+Guesses:
+pukes, Score: 🟩 🟨 🟨 ⬜ ⬜
+plunk, Score: None
+Correct in 2 guesses
+Date: 24/05/2024
+
+Username: shadow
+Target Word: glory
+Guesses:
+treat, Score: ⬜ 🟨 ⬜ ⬜ ⬜
+snack, Score: ⬜ ⬜ ⬜ ⬜ ⬜
+bones, Score: ⬜ 🟨 ⬜ ⬜ ⬜
+treat, Score: ⬜ 🟨 ⬜ ⬜ ⬜
+treat, Score: ⬜ 🟨 ⬜ ⬜ ⬜
+treat, Score: ⬜ 🟨 ⬜ ⬜ ⬜
+Game lost
+Date: 24/05/2024
+
+Username: poop
+Target Word: inter
+Guesses:
+audio, Score: ⬜ ⬜ ⬜ 🟨 ⬜
+crime, Score: ⬜ 🟨 🟨 ⬜ 🟨
+picky, Score: ⬜ 🟨 ⬜ ⬜ ⬜
+irate, Score: 🟩 🟨 ⬜ 🟨 🟨
+inter, Score: None
+Correct in 5 guesses
+Date: 25/05/2024
+
+Username: poop
+Target Word: drove
+Guesses:
+charm, Score: ⬜ ⬜ ⬜ 🟨 ⬜
+cakes, Score: ⬜ ⬜ ⬜ 🟨 ⬜
+dolce, Score: 🟩 🟨 ⬜ ⬜ 🟩
+drone, Score: 🟩 🟩 🟩 ⬜ 🟩
+drove, Score: None
+Correct in 5 guesses
+Date: 25/05/2024
+
+Username: poop
+Target Word: paper
+Guesses:
+views, Score: ⬜ ⬜ 🟨 ⬜ ⬜
+wrong, Score: ⬜ 🟨 ⬜ ⬜ ⬜
+relic, Score: 🟨 🟨 ⬜ ⬜ ⬜
+gears, Score: ⬜ 🟨 🟨 🟨 ⬜
+eager, Score: ⬜ 🟩 ⬜ 🟩 🟩
+laser, Score: ⬜ 🟩 ⬜ 🟩 🟩
+Game lost
+Date: 25/05/2024
+
+Username: poop
+Target Word: tangy
+Guesses:
+chunk, Score: ⬜ ⬜ ⬜ 🟨 ⬜
+night, Score: 🟨 ⬜ 🟨 ⬜ 🟨
+gates, Score: 🟨 🟩 🟨 ⬜ ⬜
+tango, Score: 🟩 🟩 🟩 🟩 ⬜
+tangy, Score: None
+Correct in 5 guesses
+Date: 25/05/2024
+
+Username: poop
+Target Word: chaff
+Guesses:
+bench, Score: ⬜ ⬜ ⬜ 🟨 🟨
+chair, Score: 🟩 🟩 🟩 ⬜ ⬜
+champ, Score: 🟩 🟩 🟩 ⬜ ⬜
+chase, Score: 🟩 🟩 🟩 ⬜ ⬜
+chard, Score: 🟩 🟩 🟩 ⬜ ⬜
+chary, Score: 🟩 🟩 🟩 ⬜ ⬜
+Game lost
+Date: 25/05/2024
+
+Username: kim
+Target Word: slump
+Guesses:
+irate, Score: ⬜ ⬜ ⬜ ⬜ ⬜
+cloud, Score: ⬜ 🟩 ⬜ 🟨 ⬜
+plunk, Score: 🟨 🟩 🟩 ⬜ ⬜
+clump, Score: ⬜ 🟩 🟩 🟩 🟩
+slump, Score: None
+Correct in 5 guesses
+Date: 25/05/2024
+
+
+Username: kim
+Target Word: envoy
+Guesses:
+irate, Score: ⬜ ⬜ ⬜ ⬜ 🟨
+envoy, Score: 🟩 🟩 🟩 🟩 🟩
+envoy, Score: 🟩 🟩 🟩 🟩 🟩
+envoy, Score: 🟩 🟩 🟩 🟩 🟩
+envoy, Score: 🟩 🟩 🟩 🟩 🟩
+envoy, Score: 🟩 🟩 🟩 🟩 🟩
+Game lost
+Date: 25/05/2024
+
+Username: kim
+Target Word: point
+Guesses:
+irate, Score: 🟨 ⬜ ⬜ 🟨 ⬜
+point, Score: 🟩 🟩 🟩 🟩 🟩
+Correct in 2 guesses
+Date: 25/05/2024
+
+Username: kim
+Target Word: admit
+Guesses:
+irate, Score: 🟨 ⬜ 🟨 🟨 ⬜
+Game lost
+Date: 25/05/2024
+
+Username: kim
+Target Word: admit
+Guesses:
+irate, Score: 🟨 ⬜ 🟨 🟨 ⬜
+admit, Score: 🟩 🟩 🟩 🟩 🟩
+Game lost
+Date: 25/05/2024
+
+Username: kim
+Target Word: admit
+Guesses:
+irate, Score: 🟨 ⬜ 🟨 🟨 ⬜
+admit, Score: 🟩 🟩 🟩 🟩 🟩
+Correct in 2 guesses
+Date: 25/05/2024
+
+Username: kim
+Target Word: conic
+Guesses:
+irate, Score: 🟨 ⬜ ⬜ ⬜ ⬜
+sonic, Score: ⬜ 🟩 🟩 🟩 🟩
+conic, Score: 🟩 🟩 🟩 🟩 🟩
+Correct in 3 guesses
+Date: 25/05/2024
+
+Username: kim
+Target Word: proud
+Guesses:
+irate, Score: ⬜ 🟩 ⬜ ⬜ ⬜
+proud, Score: 🟩 🟩 🟩 🟩 🟩
+Correct in 2 guesses
+Date: 25/05/2024
+
+Username: kim
+Target Word: fraud
+Guesses:
+irate, Score: ⬜ 🟩 🟩 ⬜ ⬜
+fraud, Score: 🟩 🟩 🟩 🟩 🟩
+Correct in 2 guesses
+Date: 25/05/2024
+
