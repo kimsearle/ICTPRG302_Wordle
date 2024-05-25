@@ -48,11 +48,14 @@ def guess_prompt():
     username = input("Enter name: ").lower()
     guesses_left = GUESS_COUNT
     global total_guess_count
+    total_guess_count = 0  # Reset for each game
     guess_log = []
+    won = False
+
     while guesses_left > 0:
         guess_word = input("Enter a guess: ").lower()
         if guess_word in ("exit", "e"):
-            print("thanks for playing!")
+            print("Thanks for playing!")
             return
         if guess_word in ("h", "help"):
             help_info()
@@ -60,21 +63,26 @@ def guess_prompt():
         if guess_word in all_words_list and len(guess_word) == WORD_LENGTH:
             char_guess = list(guess_word.lower())
             total_guess_count += 1
-            formatted_score = score_guess(char_guess, username)
+            formatted_score = score_guess(char_guess)
             guess_log.append((guess_word, formatted_score))
-            if not formatted_score:
-                append_guess_log(username, target_word, guess_log, True)
-                return
+            if formatted_score == "🟩 🟩 🟩 🟩 🟩":
+                won = True
+                break
             guesses_left -= 1
         else:
             print("Sorry, please enter a valid guess.")
-    print("You lost")
-    print(f'The target word was: {target_word}')
-    append_guess_log(username, target_word, guess_log, False)
-    record_score_loss(username)
+
+    if not won:
+        print(f'The target word was: {target_word}')
+
+    append_guess_log(username, target_word, guess_log, won)
+    if won:
+        record_score_win(username)
+    else:
+        record_score_loss(username)
 
 
-def score_guess(char_guess, username):
+def score_guess(char_guess):
     score = [0] * WORD_LENGTH
     used_char = set()
     for i, char in enumerate(char_guess):
@@ -89,11 +97,8 @@ def score_guess(char_guess, username):
                     used_char.add(j)
                     break
     formatted_score = " ".join(format_score(score))
+    print("  ".join(char_guess).upper())
     print(formatted_score)
-    if all(val == 2 for val in score):
-        print("Congratulations!")
-        record_score_win(username)
-        return None
     return formatted_score
 
 
@@ -122,6 +127,8 @@ def calculate_score_average():
     with open('scores.txt', 'r') as file:
         lines = file.readlines()
     user_scores = {}
+    user_stats = {}
+
     for line in lines:
         parts = line.split()
         user_name = parts[0]
@@ -132,13 +139,23 @@ def calculate_score_average():
                 user_scores[user_name].append(score)
             else:
                 user_scores[user_name] = [score]
+            # Increment win count for the user
+            user_stats[user_name] = user_stats.get(user_name, {"wins": 0, "losses": 0, "total": 0})
+            user_stats[user_name]["wins"] += 1
+            user_stats[user_name]["total"] += 1
         elif "lost" in parts:
-            continue
+            # Increment loss count for the user
+            user_stats[user_name] = user_stats.get(user_name, {"wins": 0, "losses": 0, "total": 0})
+            user_stats[user_name]["losses"] += 1
+            user_stats[user_name]["total"] += 1
 
     with open('average_score_report.txt', 'w') as report_file:
         for user, scores in user_scores.items():
             average_score = sum(scores) / len(scores) if scores else 0
-            report_file.write(f"{user} has an average score of {average_score:.2f}\n")
+            win_percentage = (user_stats[user]["wins"] / user_stats[user]["total"]) * 100
+            total_plays = user_stats[user]["total"]
+            report_file.write(
+                f"{user} has an average score of {average_score:.2f}, a win percentage of {win_percentage:.2f}%, and a total of {total_plays} plays.\n")
 
 
 def append_guess_log(username, target_word, guess_log, won):
@@ -153,11 +170,11 @@ def append_guess_log(username, target_word, guess_log, won):
         else:
             log_file.write("Game lost\n")
         log_file.write(f"Date: {datetime.date.today().strftime('%d/%m/%Y')}\n")
-        log_file.write("\n")  # Add a newline for separation between games
+        log_file.write("\n")
 
 
 # Uncomment to print the target word for testing
-print(target_word)
+# print(target_word)
 
 game_instructions()
 guess_prompt()
