@@ -75,6 +75,7 @@ Guess the word correctly to win the game.
 **Winner!**
     
 Continue guessing until you either guess the word correctly or use up all attempts.
+You will have the option to play again after each game
 
 
 ### Help

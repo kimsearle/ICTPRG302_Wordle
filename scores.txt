@@ -38,3 +38,10 @@ kim guessed the word in 5 on 2024-05-25.
 kim lost and did not guess the word on 2024-05-25.
 kim guessed the word in 4 on 2024-05-25.
 kim guessed the word in 6 on 2024-05-25.
+kim lost and did not guess the word on 2024-05-30.
+kim guessed the word in 3 on 2024-05-30.
+kim guessed the word in 1 on 2024-05-30.
+shadow guessed the word in 4 on 2024-05-30.
+kim lost and did not guess the word on 2024-05-30.
+kim guessed the word in 1 on 2024-05-30.
+kim lost and did not guess the word on 2024-05-30.

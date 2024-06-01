@@ -80,63 +80,6 @@ treat, Score: ⬜ 🟨 ⬜ ⬜ ⬜
 Game lost
 Date: 24/05/2024
 
-Username: poop
-Target Word: inter
-Guesses:
-audio, Score: ⬜ ⬜ ⬜ 🟨 ⬜
-crime, Score: ⬜ 🟨 🟨 ⬜ 🟨
-picky, Score: ⬜ 🟨 ⬜ ⬜ ⬜
-irate, Score: 🟩 🟨 ⬜ 🟨 🟨
-inter, Score: None
-Correct in 5 guesses
-Date: 25/05/2024
-
-Username: poop
-Target Word: drove
-Guesses:
-charm, Score: ⬜ ⬜ ⬜ 🟨 ⬜
-cakes, Score: ⬜ ⬜ ⬜ 🟨 ⬜
-dolce, Score: 🟩 🟨 ⬜ ⬜ 🟩
-drone, Score: 🟩 🟩 🟩 ⬜ 🟩
-drove, Score: None
-Correct in 5 guesses
-Date: 25/05/2024
-
-Username: poop
-Target Word: paper
-Guesses:
-views, Score: ⬜ ⬜ 🟨 ⬜ ⬜
-wrong, Score: ⬜ 🟨 ⬜ ⬜ ⬜
-relic, Score: 🟨 🟨 ⬜ ⬜ ⬜
-gears, Score: ⬜ 🟨 🟨 🟨 ⬜
-eager, Score: ⬜ 🟩 ⬜ 🟩 🟩
-laser, Score: ⬜ 🟩 ⬜ 🟩 🟩
-Game lost
-Date: 25/05/2024
-
-Username: poop
-Target Word: tangy
-Guesses:
-chunk, Score: ⬜ ⬜ ⬜ 🟨 ⬜
-night, Score: 🟨 ⬜ 🟨 ⬜ 🟨
-gates, Score: 🟨 🟩 🟨 ⬜ ⬜
-tango, Score: 🟩 🟩 🟩 🟩 ⬜
-tangy, Score: None
-Correct in 5 guesses
-Date: 25/05/2024
-
-Username: poop
-Target Word: chaff
-Guesses:
-bench, Score: ⬜ ⬜ ⬜ 🟨 🟨
-chair, Score: 🟩 🟩 🟩 ⬜ ⬜
-champ, Score: 🟩 🟩 🟩 ⬜ ⬜
-chase, Score: 🟩 🟩 🟩 ⬜ ⬜
-chard, Score: 🟩 🟩 🟩 ⬜ ⬜
-chary, Score: 🟩 🟩 🟩 ⬜ ⬜
-Game lost
-Date: 25/05/2024
-
 Username: kim
 Target Word: slump
 Guesses:
@@ -147,7 +90,6 @@ clump, Score: ⬜ 🟩 🟩 🟩 🟩
 slump, Score: None
 Correct in 5 guesses
 Date: 25/05/2024
-
 
 Username: kim
 Target Word: envoy
@@ -261,4 +203,73 @@ squid, Score: 🟩 🟩 🟩 🟩 ⬜
 squib, Score: 🟩 🟩 🟩 🟩 🟩
 Correct in 6 guesses
 Date: 25/05/2024
+
+Username: kim
+Target Word: kappa
+Guesses:
+aahed, Score: 🟨 🟩 ⬜ ⬜ ⬜
+aargh, Score: 🟨 🟩 ⬜ ⬜ ⬜
+salsa, Score: ⬜ 🟩 ⬜ ⬜ 🟩
+salsa, Score: ⬜ 🟩 ⬜ ⬜ 🟩
+salsa, Score: ⬜ 🟩 ⬜ ⬜ 🟩
+salsa, Score: ⬜ 🟩 ⬜ ⬜ 🟩
+Game lost
+Date: 30/05/2024
+
+Username: kim
+Target Word: dough
+Guesses:
+irate, Score: ⬜ ⬜ ⬜ ⬜ ⬜
+cloud, Score: ⬜ ⬜ 🟨 🟨 🟨
+dough, Score: 🟩 🟩 🟩 🟩 🟩
+Correct in 3 guesses
+Date: 30/05/2024
+
+Username: kim
+Target Word: linen
+Guesses:
+linen, Score: 🟩 🟩 🟩 🟩 🟩
+Correct in 1 guesses
+Date: 30/05/2024
+
+Username: shadow
+Target Word: cramp
+Guesses:
+irate, Score: ⬜ 🟩 🟩 ⬜ ⬜
+prank, Score: 🟨 🟩 🟩 ⬜ ⬜
+crapy, Score: 🟩 🟩 🟩 🟨 ⬜
+cramp, Score: 🟩 🟩 🟩 🟩 🟩
+Correct in 4 guesses
+Date: 30/05/2024
+
+Username: kim
+Target Word: comet
+Guesses:
+irate, Score: ⬜ ⬜ ⬜ 🟨 🟨
+theme, Score: 🟨 ⬜ 🟨 🟨 ⬜
+melts, Score: 🟨 🟨 ⬜ 🟨 ⬜
+lemon, Score: ⬜ 🟨 🟩 🟨 ⬜
+irate, Score: ⬜ ⬜ ⬜ 🟨 🟨
+irate, Score: ⬜ ⬜ ⬜ 🟨 🟨
+Game lost
+Date: 30/05/2024
+
+Username: kim
+Target Word: muddy
+Guesses:
+muddy, Score: 🟩 🟩 🟩 🟩 🟩
+Correct in 1 guesses
+Date: 30/05/2024
+
+Username: kim
+Target Word: wharf
+Guesses:
+plank, Score: ⬜ ⬜ 🟩 ⬜ ⬜
+irate, Score: ⬜ 🟨 🟩 ⬜ ⬜
+charm, Score: ⬜ 🟩 🟩 🟩 ⬜
+shark, Score: ⬜ 🟩 🟩 🟩 ⬜
+irate, Score: ⬜ 🟨 🟩 ⬜ ⬜
+irate, Score: ⬜ 🟨 🟩 ⬜ ⬜
+Game lost
+Date: 30/05/2024
 
