@@ -15,6 +15,9 @@ total_guess_count: Counts the number of guesses made by the player.
 
 ### Functions
 
+```select_random_word()```
+Randomly chooses the target word at the start of each game
+
 ```game_instructions()```
 Displays the game instructions to the player.
 
@@ -30,27 +33,18 @@ Scores the player's guess against the target word. Returns False if the word is 
 ```format_score(score)```
 Formats the score feedback (miss, misplaced, exact) for display.
 
-```record_score_win()```
-Records the player's win in the scores.md file with the number of attempts taken.
+```record_score_win(username)```
+Records the player's win in the scores.txt file with the number of attempts taken.
 
-```record_score_loss()```
-Records the player's loss in the scores.md file.
+```record_score_loss(username)```
+Records the player's loss in the scores.txt file.
+
+```calculate_score_average()```
+Records the total plays, average score and win percentage of each user in the average_score_report.txt file.
+
+```append_guess_log(username, target_word, guess_log, won)```
+Records the username and guess log (with a timestamp) of game in the guess_log.txt file.
 
 
-### Testing
-Doctests are included in the function docstrings to validate their behavior.
-Run the script with test=True to execute the doctests:
-```bash 
-./guess_my_word.py
-```
-Example Doctest
-```python 
->>> score_guess('hello', 'hello')
-(2, 2, 2, 2, 2)
->>> score_guess('drain', 'float')
-(0, 0, 1, 0, 0)
->>> score_guess('gauge', 'range')
-(0, 2, 0, 2, 2)
-```
 
 

@@ -23,13 +23,19 @@ The project has the following structure:
 ```bash
 guess-my-word/  
 │  
-├── guess_my_word.py           # Main game script  
-├── words.txt                  # File containing all valid words  
-├── target_words.txt           # File containing target words  
-├── README.md                  # Project documentation  
-├── LICENSE                    # License file  
-└── tests/                     # Directory containing test files  
-     └── test_guess_my_word.py # Unit tests for the game  
+├── guess_my_word_main.py          # Main game script  
+├── README.md                      # Project documentation  
+├── average_score_report.txt       # stats for all users
+├── guess_log.txt                  # log of all games
+├── scores.txt                     # list of usernames, score and timestamp
+└── docments/                      # Directory containing project files  
+     └── psudeocode.py             # psudocode for the game  
+     └── all_words.txt                 # File containing all valid words 
+     └── target_words.txt              # File containing target words 
+     └── developer_documentation.md    # File containing developer documentation
+     └── user_documentation.md         # File containing user documentation
+     └── project_documentation.md      # File containing project documentation  
+     └── flowchart.pdf                 # File containing flowchart of code algorithms           
  ```
 
 ### Usage
@@ -47,13 +53,37 @@ Ensure that your code is compatible with Python 3.1x.
 
 
 ### Key Functions
-**play():** Controls the game loop.   
-**is_correct(score):** Checks if the guess is correct.   
-**get_valid_words(file_path=ALL_WORDS):** Returns a list of valid words.   
-**get_target_word(file_path=TARGET_WORDS, seed=None):** Returns a random target word.  
-**ask_for_guess(valid_words):** Prompts the user for a guess.  
-**score_guess(guess, target_word):** Scores the guess against the target word.  
-**format_score(guess, score):** Formats the guess and its score for display.  
+### Functions
+
+```select_random_word()```
+Randomly chooses the target word at the start of each game
+
+```game_instructions()```
+Displays the game instructions to the player.
+
+```help_info()```
+Displays help information when the player asks for help.
+
+```guess_prompt()```
+Prompts the player for guesses and processes the input. Checks for special commands (exit, help) and validates the guesses.
+
+```score_guess(char_guess)```
+Scores the player's guess against the target word. Returns False if the word is guessed correctly, otherwise returns True.
+
+```format_score(score)```
+Formats the score feedback (miss, misplaced, exact) for display.
+
+```record_score_win(username)```
+Records the player's win in the scores.txt file with the number of attempts taken.
+
+```record_score_loss(username)```
+Records the player's loss in the scores.txt file.
+
+```calculate_score_average()```
+Records the total plays, average score and win percentage of each user in the average_score_report.txt file.
+
+```append_guess_log(username, target_word, guess_log, won)```
+Records the username and guess log (with a timestamp) of game in the guess_log.txt file.
 
 
 ### Testing

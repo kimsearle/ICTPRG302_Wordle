@@ -1,5 +1,5 @@
 # Guess-My-Word Game
-Guess-My-Word is a fun and challenging game where you have to guess a hidden word within a limited number of attempts. Each guess provides feedback to help you guess the correct word.
+Guess-My-Word is a fun game where you have to guess a hidden word within a limited number of attempts. Each guess provides feedback to help you guess the correct word.
 
 ## How to Download Game:
 

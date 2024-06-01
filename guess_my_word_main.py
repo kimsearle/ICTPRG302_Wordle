@@ -140,7 +140,7 @@ def calculate_score_average():
     with open('scores.txt', 'r') as file:
         lines = file.readlines()
     user_scores = {}
-    user_stats = {}  # To store win and loss counts for each user
+    user_stats = {}
 
     for line in lines:
         parts = line.split()
