@@ -3,7 +3,7 @@ Guess-My-Word is a fun game where you have to guess a hidden word within a limit
 
 ## How to Download Game:
 
-####Download the Game from GitHub:
+#### Download the Game from GitHub:
 
 Visit: [https://github.com/kimsearle/ICTPRG302_guess-my-word] 
 Click on the green "Code" button and select "Download ZIP".

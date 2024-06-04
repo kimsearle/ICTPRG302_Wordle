@@ -273,3 +273,27 @@ irate, Score: ⬜ 🟨 🟩 ⬜ ⬜
 Game lost
 Date: 30/05/2024
 
+Username: kim
+Target Word: batty
+Guesses:
+irate, Score: ⬜ ⬜ 🟨 🟩 ⬜
+irate, Score: ⬜ ⬜ 🟨 🟩 ⬜
+irate, Score: ⬜ ⬜ 🟨 🟩 ⬜
+irate, Score: ⬜ ⬜ 🟨 🟩 ⬜
+irate, Score: ⬜ ⬜ 🟨 🟩 ⬜
+irate, Score: ⬜ ⬜ 🟨 🟩 ⬜
+Game lost
+Date: 04/06/2024
+
+Username: kim
+Target Word: hater
+Guesses:
+batty, Score: ⬜ 🟩 🟩 ⬜ ⬜
+batty, Score: ⬜ 🟩 🟩 ⬜ ⬜
+batty, Score: ⬜ 🟩 🟩 ⬜ ⬜
+batty, Score: ⬜ 🟩 🟩 ⬜ ⬜
+batty, Score: ⬜ 🟩 🟩 ⬜ ⬜
+batty, Score: ⬜ 🟩 🟩 ⬜ ⬜
+Game lost
+Date: 04/06/2024
+

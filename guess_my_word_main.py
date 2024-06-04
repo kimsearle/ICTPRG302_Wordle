@@ -186,7 +186,7 @@ def append_guess_log(username, target_word, guess_log, won):
 
 
 # Uncomment to print the target word for testing
-print(target_word)
+# print(target_word)
 
 game_instructions()
 guess_prompt()
