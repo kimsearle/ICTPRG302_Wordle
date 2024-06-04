@@ -79,6 +79,7 @@ def guess_prompt():
                 print("Sorry, please enter a valid guess.")
 
         if not won:
+            print("Sorry, you lost")
             print(f'The target word was: {target_word}')
 
         append_guess_log(username, target_word, guess_log, won)
@@ -87,7 +88,7 @@ def guess_prompt():
         else:
             record_score_loss(username)
 
-        play_again = input("Do you want to play again? (yes/no): ").strip().lower()
+        play_again = input("Do you want to play again? (yes/no): ").lower()
         if play_again != "yes":
             break
         else:
@@ -152,7 +153,7 @@ def calculate_score_average():
                 user_scores[user_name].append(score)
             else:
                 user_scores[user_name] = [score]
-            # Increment win count for the user
+            # win count for the user
             user_stats[user_name] = user_stats.get(user_name, {"wins": 0, "losses": 0, "total": 0})
             user_stats[user_name]["wins"] += 1
             user_stats[user_name]["total"] += 1
